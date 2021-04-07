@@ -1,0 +1,118 @@
+[[Couenne]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2c820d81cc0ca31620a2d88a39ffe7e39729066e"
+libc = "glibc"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "fc556a985cef1acf504951bf7f818f4c5b3f84fd86653ceea8cc67cdddaade6b"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.aarch64-linux-gnu-cxx11.tar.gz"
+[[Couenne]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e23cc9c31f2e56d2ec1b2d746f5b8da6a126f4e1"
+libc = "musl"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "57d504b5333f0e9d5f0171c22828e121f236d6c55e06414734d0015b080c931e"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.aarch64-linux-musl-cxx11.tar.gz"
+[[Couenne]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "19f9b378dc65ba59259dc72120e98f9a3c9cff32"
+libc = "glibc"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "7a103f44aba0f00ca9c01bd1ec6b23ebfb8b512314fa5c11ab43416565defec9"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Couenne]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "afa702c63012705bf4c273db943c72a8c5439d76"
+libc = "musl"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "ec654eabaa2158b100ff7ca7c52a89f7f3a184cb52ab526bf2dcb6289940e71b"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[Couenne]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a86e10e25da691cd8989bba1289a421d604c5535"
+libc = "glibc"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "2ac5b16574011acf016d9cf0c38c64d4ca3a5d03ac7e70e6c9c553cb86af4c16"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.i686-linux-gnu-cxx11.tar.gz"
+[[Couenne]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "127a5e542ea2e7566abbf8c5e6ee61104692cddc"
+libc = "musl"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "60051e82e59c4244c16f72f129514e14aefab5a81249c7c68bebe79ce51614a4"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.i686-linux-musl-cxx11.tar.gz"
+[[Couenne]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9cd15f21543934940819e2c38756dff115471291"
+os = "windows"
+
+    [[Couenne.download]]
+    sha256 = "7d4e8e5eeaa5a0d358c9beed9df0b024ec325afcf85e98ab8ad69c83dadb8f06"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.i686-w64-mingw32-cxx11.tar.gz"
+[[Couenne]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bf14d35980a13b9d6d56a0b0116600519098a059"
+libc = "glibc"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "f8cef128ae8869a790bd4b4567e1c733aeb44d5f12445412c0eb105f8adc6fc9"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[Couenne]]
+arch = "x86_64"
+git-tree-sha1 = "2a977e2bc37cb7d4c751b647ffe19671a1e097a8"
+os = "macos"
+
+    [[Couenne.download]]
+    sha256 = "d184a80e70646a03cca1190351c7193ff5c936e8a088c2095342f8cab26f1d89"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.x86_64-apple-darwin.tar.gz"
+[[Couenne]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ecc837f417130ef88b6288424541354733c387b1"
+libc = "glibc"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "2a60e74025529c09aaccd24183093fde39f096328d4076428d958a156b2b4244"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.x86_64-linux-gnu-cxx11.tar.gz"
+[[Couenne]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7275b91ecae7ba11d8ee56cda8414334e81e6f48"
+libc = "musl"
+os = "linux"
+
+    [[Couenne.download]]
+    sha256 = "be7ddcc2dd0b15664909c4295ac6bb01cfe9eb8026545c5f6fd56fc0dcbb92d0"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.x86_64-linux-musl-cxx11.tar.gz"
+[[Couenne]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d5244151148ef8f9de82d281a56ec0048d1fa27c"
+os = "windows"
+
+    [[Couenne.download]]
+    sha256 = "ffa61fe3b1095d0cd0a10f70229c48131bb5fdc5b8f912c95f33f3c792b76208"
+    url = "https://github.com/JuliaBinaryWrappers/Couenne_jll.jl/releases/download/Couenne-v0.5.8+0/Couenne.v0.5.8.x86_64-w64-mingw32-cxx11.tar.gz"
