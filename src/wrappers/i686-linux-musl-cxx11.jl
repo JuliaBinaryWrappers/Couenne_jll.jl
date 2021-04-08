@@ -4,13 +4,12 @@ export amplexe, libcouenne
 using ASL_jll
 using Bonmin_jll
 using Cbc_jll
-using CompilerSupportLibraries_jll
 using Ipopt_jll
 JLLWrappers.@generate_wrapper_header("Couenne")
 JLLWrappers.@declare_executable_product(amplexe)
 JLLWrappers.@declare_library_product(libcouenne, "libCouenne.so.1")
 function __init__()
-    JLLWrappers.@generate_init_header(ASL_jll, Bonmin_jll, Cbc_jll, CompilerSupportLibraries_jll, Ipopt_jll)
+    JLLWrappers.@generate_init_header(ASL_jll, Bonmin_jll, Cbc_jll, Ipopt_jll)
     JLLWrappers.@init_executable_product(
         amplexe,
         "bin/couenne",
