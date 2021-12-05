@@ -6,19 +6,19 @@ using Bonmin_jll
 using Cbc_jll
 using Ipopt_jll
 JLLWrappers.@generate_wrapper_header("Couenne")
-JLLWrappers.@declare_executable_product(amplexe)
 JLLWrappers.@declare_library_product(libcouenne, "libCouenne.so.1")
+JLLWrappers.@declare_executable_product(amplexe)
 function __init__()
     JLLWrappers.@generate_init_header(ASL_jll, Bonmin_jll, Cbc_jll, Ipopt_jll)
-    JLLWrappers.@init_executable_product(
-        amplexe,
-        "bin/couenne",
-    )
-
     JLLWrappers.@init_library_product(
         libcouenne,
         "lib/libCouenne.so",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        amplexe,
+        "bin/couenne",
     )
 
     JLLWrappers.@generate_init_footer()
